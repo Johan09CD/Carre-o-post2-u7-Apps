@@ -1,19 +1,19 @@
 name: geosense
-description: "GeoSense - Location and Sensors App"
+description: Aplicación GeoSense - Ubicación, Mapas y Sensores
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.3.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  geolocator: ^11.0.0
+  permission_handler: ^11.3.0
+  google_maps_flutter: ^2.6.0
+  sensors_plus: ^6.1.1
   cupertino_icons: ^1.0.8
-  geolocator: 11.0.0
-  permission_handler: 11.3.0
-  google_maps_flutter: 2.6.0
-  sensors_plus: ^7.0.0
 
 dev_dependencies:
   flutter_test:
